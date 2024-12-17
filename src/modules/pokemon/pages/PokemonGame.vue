@@ -12,6 +12,7 @@
 
     <div class="h-20">
       <button
+        data-test-id="btn-new-game"
         v-if="gameStatus !== GameStatus.Playing"
         @click="getNextRound(4)"
         class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700 transition-all"
